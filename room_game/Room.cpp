@@ -7,15 +7,15 @@ class Room
 {
   private:
     fstream saveFile;
+  
     ObjectInteractable contents[];
   
   public:
     Room(string);
 };
 
-Room::Room(string loadFile)
+Room::Room(string fileIn)
 {
-  saveFile = load(loadFile);
-  
+  saveFile = load(string fileIn);
   
 }
