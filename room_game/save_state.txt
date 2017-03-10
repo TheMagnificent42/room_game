@@ -1,0 +1,14 @@
+//save file. only comments starting at the beginning of the line, preceded by // are permitted
+//inventory
+none
+none
+none
+none
+none
+none
+none
+none
+//current room
+start
+//health
+10
